@@ -251,7 +251,7 @@ clean_and_predict(quarters, ranking, final, logreg)
 
 # List of matches
 semi = [('Belgium', 'France'),
-        ('England', 'Russia')]
+        ('England', 'Croatia')]
 
 clean_and_predict(semi, ranking, final, logreg)
 
