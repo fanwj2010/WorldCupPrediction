@@ -255,7 +255,12 @@ semi = [('Belgium', 'France'),
 
 clean_and_predict(semi, ranking, final, logreg)
 
+# third_place
+third_place = [('Belgium', 'England')]
+
+clean_and_predict(third_place, ranking, final, logreg)
+
 # Finals
-finals = [('France', 'England')]
+finals = [('France', 'Croatia')]
 
 clean_and_predict(finals, ranking, final, logreg)
